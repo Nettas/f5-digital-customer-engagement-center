@@ -1,6 +1,18 @@
 ########################### Versions ##########################
+# terraform {
+#  required_version = ">= 1.0"
+#
+#  required_providers {
+#    volterra = {
+#      source  = "volterraedge/volterra"
+#      version = "0.10"
+#    }
+#    aws = ">= 3"
+# }
+#}
+
 terraform {
-  required_version = ">= 1.0"
+  required_version = ">= 0.14.5"
 
   required_providers {
     volterra = {
